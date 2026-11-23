@@ -1,6 +1,6 @@
 # Cademy for Claude and ChatGPT
 
-Cademy is booking and training management software for course providers. This plugin connects Claude or ChatGPT to your Cademy account, so you can ask about and manage your courses, dates, bookings, orders, invoices, contacts, certificates and forms in plain language, and it adds five skills that show the AI how a training admin does everyday jobs.
+Cademy is the AI-native training management system for training providers: course booking, training management (TMS), learning management (LMS) and training CRM in one platform, used by 1,000+ training teams. This plugin connects Claude or ChatGPT to your Cademy account so you can run your whole training business from one conversation: build the course, sell the seats, run the day, teach, certify and invoice. It adds five skills that show the AI how a training admin does everyday jobs.
 
 ## What you can ask
 

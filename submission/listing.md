@@ -15,23 +15,28 @@ Cademy
 ### One-liner (up to 200 characters)
 
 <!-- claude-one-liner -->
-Manage courses, dates, bookings, orders, invoices, contacts and certificates in your Cademy training business, with every change previewed and confirmed.
+Manage courses, dates, bookings and learners in Cademy, the AI-native training management system (TMS) with course booking, LMS and training CRM in one platform.
 <!-- /claude-one-liner -->
 
 ### Description (up to 2,000 characters)
 
 <!-- claude-description -->
-Cademy is booking and training management software for course providers. Connect your Cademy account to ask about and manage your training business in plain language.
+Cademy is the AI-native training management system for training providers: course booking, training management (TMS), learning management (LMS) and training CRM in one platform, used by 1,000+ training teams. Connect your Cademy account and run your whole training business from one conversation.
 
-Find what you need: which courses are on this week and who is trainer, who is booked, who is on a waitlist, who still owes money, whose certificates expire next month, what learners said in feedback, and what is waiting in the inbox.
+Course booking: payments, waitlists, discounts and memberships, on your website or your own booking page.
+Training management (TMS): scheduling with trainer availability, registers, invoices with PO numbers, reminders and reporting.
+Learning management (LMS): quizzes with pass marks, deadlines and certificates that issue automatically.
+Training CRM: learners and the organisations that pay for them, with every email, note and certificate expiry on the record.
 
-Get admin work done: mark attendance, issue certificates, request feedback, create and move bookings, accept booking requests, set up courses and dates, import spreadsheets of contacts, dates or past bookings, reply to learners and send bulk emails.
+Ask it the way you would ask a colleague: which courses are on this week and does every date have a trainer, who is on the waitlist, who still owes money, whose certificates expire next month, what learners said in their feedback.
 
-Built for safety. The AI sees and changes only what your role in Cademy allows, with the same plan limits and Activity Log as the Cademy app. Anything that sends email, moves money or changes many records shows a preview first and waits for your confirmation.
+Get the admin done: mark attendance, issue certificates, request feedback, create and move bookings, accept booking requests, set up courses and dates, import a spreadsheet of delegates, reply to learners and email everyone on a course date.
 
-The paired plugin adds five skills for everyday jobs: running a course day, chasing unpaid bookings, setting up a course, a bookings report and importing from a spreadsheet.
+Anything that emails people, moves a booking or takes money waits for your yes. It works with the permissions of whoever connected it, every change is on the Activity Log with the value before and after, and settings, plans and passwords stay with people. Cademy is certified to ISO 27001 and Cyber Essentials Plus, audited for SOC 2 Type 2 and GDPR compliant.
 
-You need a Cademy account. Each person connects with their own Cademy login and can disconnect at any time from Settings in Cademy.
+The paired skills cover everyday jobs: running a course day, chasing unpaid bookings, setting up a course, a bookings report and importing from a spreadsheet.
+
+You need a Cademy account. Each person connects with their own Cademy login.
 <!-- /claude-description -->
 
 ### Categories (1 to 5)
@@ -56,13 +61,19 @@ Cademy
 ### Subtitle (up to 30 characters)
 
 <!-- openai-subtitle -->
-Run your training business
+Training management and LMS
 <!-- /openai-subtitle -->
 
 ### Description (up to 4,000 characters)
 
 <!-- openai-description -->
-Cademy is booking and training management software for course providers: first aid and health and safety trainers, professional training companies, tutors and workshop hosts. Connect your Cademy account to ask about and manage your training business in plain language.
+Cademy is the AI-native training management system for training providers: course booking, training management (TMS), learning management (LMS) and training CRM in one platform, used by 1,000+ training teams. Connect your Cademy account and run your whole training business from one conversation: build the course, sell the seats, run the day, teach, certify and invoice.
+
+What Cademy covers
+- Course booking: payments, waitlists, discounts and memberships, on your website or your own booking page.
+- Training management (TMS): scheduling with trainer availability, registers, invoices with PO numbers, reminders and reporting.
+- Learning management (LMS): quizzes with pass marks, drip feed, deadlines and certificates that issue automatically.
+- Training CRM: learners and the organisations that pay for them, with every email, note and certificate expiry on the record.
 
 What you can ask
 - Which courses are on this week, and does every date have a trainer?
@@ -76,14 +87,15 @@ What you can get done
 - Chase unpaid bookings: list what is owed and draft a reminder, sending only when you say so.
 - Set up a course with its price, dates, trainer and venue, and publish it when you are ready.
 - Get a summary of dates, bookings, places, waitlists, money in and money owed for any period.
-- Import contacts, course dates or past bookings from a spreadsheet, with duplicates and errors reported before anything is imported.
-- Create and move bookings, accept booking requests, reply to learners and send bulk emails.
+- Import delegates, course dates or past bookings from a spreadsheet, with duplicates and errors reported before anything is imported.
+- Create and move bookings, accept booking requests, reply to learners and email everyone on a course date.
 
 Safe by design
-- You connect with your own Cademy login, and the assistant sees and changes only what your role in Cademy allows.
-- Every change follows the same rules, plan limits and Activity Log as the Cademy app.
-- Anything that sends email, moves money or changes many records shows a preview first and waits for your confirmation.
-- You can disconnect at any time from Settings in Cademy.
+- Anything that emails people, moves a booking or takes money waits for your yes.
+- It works with the permissions of whoever connected it, and no more.
+- Every change is on the Activity Log, with the value before and after.
+- Settings, plans and passwords are changed by a person, never by the assistant.
+- Cademy is certified to ISO 27001 and Cyber Essentials Plus, audited for SOC 2 Type 2 and GDPR compliant.
 
 You need a Cademy account to use this.
 <!-- /openai-description -->

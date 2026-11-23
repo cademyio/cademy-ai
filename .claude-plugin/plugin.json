@@ -2,7 +2,7 @@
     "name": "cademy",
     "displayName": "Cademy",
     "version": "1.0.0",
-    "description": "Run your training business from Claude: courses, dates, bookings, orders, invoices, contacts, certificates and forms in your Cademy account, with skills for running a course day, chasing unpaid bookings, setting up a course, a bookings report and spreadsheet imports.",
+    "description": "Cademy is the AI-native training management system (TMS) with course booking, LMS and training CRM in one platform. Manage courses, dates, bookings, learners, certificates and invoices, with skills for running a course day, chasing unpaid bookings, setting up a course, a bookings report and spreadsheet imports.",
     "author": {
         "name": "Cademy",
         "url": "https://cademy.io"
@@ -10,7 +10,16 @@
     "homepage": "https://cademy.io/features/mcp",
     "repository": "https://github.com/cademyio/cademy-ai",
     "license": "MIT",
-    "keywords": ["training", "courses", "bookings", "education", "certificates", "invoicing"],
+    "keywords": [
+        "training management system",
+        "course booking system",
+        "LMS",
+        "training CRM",
+        "training providers",
+        "courses",
+        "bookings",
+        "certificates"
+    ],
     "icon": "./assets/logo-512.png",
     "documentationUrl": "https://cademy.io/features/mcp",
     "supportUrl": "https://help.cademy.io",

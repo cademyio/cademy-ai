@@ -1,6 +1,6 @@
 # Test cases
 
-For OpenAI's review form (exactly five positive and three negative) and Claude's reviewers. Run them on the Production reviewer account "Cademy Demo Academy", signed in as its System Admin. Names, courses and amounts come from the seeded data (the same seed as the Stage workflow harness), so "this week" and "next week" are relative to the day the seed was last run.
+For OpenAI's review form (exactly five positive and three negative) and Claude's reviewers. Run them on the `zoomtester` review account, signed in as its System Admin. The expected answers below assume a First Aid date and a Fire Marshal date this week, a learner called Tom on the First Aid date, and at least one unpaid booking next week. Once the sample data is in `zoomtester`, change the names and courses here to match it before pasting into the forms.
 
 ## Positive
 

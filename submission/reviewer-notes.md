@@ -4,13 +4,13 @@ Paste into OpenAI's secure "Review details" form. For Claude, send only when a r
 
 ## About the account
 
-- **Account:** Cademy Demo Academy, a Production Cademy account set up for reviews with sample courses, dates, bookings, invoices, certificates, feedback and an inbox. All contacts use made-up names and `@harness.cademy.test` email addresses, so no real person is emailed.
+- **Account:** `zoomtester`, a Production Cademy account we keep for app reviews, with sample courses, dates, bookings, contacts and certificates. Its contacts are test people, not real customers.
 - **Sign in:** when the AI app asks you to connect, a Cademy page opens. Sign in with the email and password below (no two-factor code is asked for), then click Allow.
-  - Email: `<reviewer login email>`
+  - Email: `external-tester@cademy.io`
   - Password: `<reviewer password>`
 - **Role:** System Admin, so every tool is available.
 - **No card payments:** the account has no live payment processor connected. Card checkout and approving orders that charge a card will refuse with a clear message. Invoices, pay links and recorded payments work without moving real money.
-- **Emails:** emails to the sample contacts go to unreachable `harness.cademy.test` addresses. Bulk email allowance follows the account's plan.
+- **Emails:** the sample contacts are test addresses. Please don't email addresses outside the account.
 
 ## How it behaves
 
@@ -21,7 +21,7 @@ Paste into OpenAI's secure "Review details" form. For Claude, send only when a r
 
 ## Resetting
 
-If a reviewer changes the sample data, we reseed the account on request. Contact: `<support contact for reviewers>`.
+Changing the sample data is fine; we tidy the account after the review. Contact: `<support contact for reviewers>`.
 
 ## Data handling
 

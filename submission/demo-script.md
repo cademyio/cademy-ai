@@ -1,6 +1,6 @@
 # Demo video script
 
-About 3 minutes. Record in ChatGPT (OpenAI requires a video URL) and reuse for Claude if asked. Use the Production reviewer account "Cademy Demo Academy". Keep the Cademy app open in a second tab to show changes landing.
+About 3 minutes. Record in ChatGPT (OpenAI requires a video URL) and reuse for Claude if asked. Use the `zoomtester` review account. Keep the Cademy app open in a second tab to show changes landing.
 
 | Time | On screen | Say |
 | --- | --- | --- |
@@ -15,4 +15,4 @@ About 3 minutes. Record in ChatGPT (OpenAI requires a video URL) and reuse for C
 | 2:40 | Prompt: "What's the weather tomorrow?" | "Unrelated questions don't touch your Cademy account." |
 | 2:50 | Cademy Settings › Connected AI Apps | "You can see and disconnect every AI app from Settings in Cademy." |
 
-Before recording: reseed the reviewer account so "this week" dates exist, hide the browser bookmarks bar, and use a clean chat.
+Before recording: make sure `zoomtester` has dates this week and next week, hide the browser bookmarks bar, and use a clean chat.

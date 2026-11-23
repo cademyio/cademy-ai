@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "cademy": {
+            "type": "http",
+            "url": "https://mcp.cademy.io/mcp"
+        }
+    }
+}

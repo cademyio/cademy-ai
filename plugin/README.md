@@ -27,7 +27,7 @@ Cademy is the AI-native training management system for training providers: cours
 2. Install the Cademy plugin from the Claude or ChatGPT directory.
 3. Connect when asked. A Cademy page opens where you sign in and approve the connection. You can disconnect at any time from Settings › Connected AI Apps in Cademy.
 
-Full guide: <https://cademy.io/features/mcp>
+Set-up guide: <https://help.cademy.io/en/articles/18547504-set-up-cademy-mcp-in-chatgpt-claude-codex-and-other-ai-apps>
 
 ## Safety
 

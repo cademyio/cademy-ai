@@ -1,6 +1,6 @@
 # Test cases
 
-For OpenAI's review form (exactly five positive and three negative) and Claude's reviewers. Run them on the `zoomtester` review account, signed in as `external-tester@cademy.io` (System Admin). The expected answers match the sample data in that account as of 24 November 2026: five courses with dates from 1 to 18 December, all in GBP. Dates are named, not "this week", so the answers stay right while the review runs. If the sample data changes, update this file.
+Built into the OpenAI ZIP by `scripts/build-openai.mjs` (exactly five positive and three negative; the headings, Prompt, Expected tools and Expected behaviour lines are parsed, so keep their format) and Claude's reviewers. Run them on the `zoomtester` review account, signed in as `external-tester@cademy.io` (System Admin). The expected answers match the sample data in that account as of 24 November 2026: five courses with dates from 1 to 18 December, all in GBP. Dates are named, not "this week", so the answers stay right while the review runs. If the sample data changes, update this file.
 
 ## Positive
 

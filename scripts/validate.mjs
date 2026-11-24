@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 
-const root = new URL('..', import.meta.url).pathname
+const root = new URL('../plugin/', import.meta.url).pathname
 const errors = []
 const fail = (message) => errors.push(message)
 

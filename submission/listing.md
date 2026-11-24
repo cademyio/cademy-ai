@@ -48,7 +48,7 @@ Productivity, Education, Business operations (pick the closest names the portal 
 - Documentation: https://cademy.io/features/mcp (swap for the new AI apps page once it is live)
 - Privacy policy: https://cademy.io/privacy
 - Support: https://help.cademy.io
-- Icon: `assets/logo-512.png`
+- Icon: `plugin/assets/logo-512.png`
 
 ## OpenAI plugin directory (ChatGPT and Codex)
 
@@ -132,7 +132,7 @@ Reply to learners and send bulk emails
 - Privacy policy: https://cademy.io/privacy
 - Terms of service: https://cademy.io/terms
 - Brand colour: `#3D56E0` (Cademy blue, passes 2:1 against white; for dark mode use `#5B73F5`)
-- Logo: `assets/logo-512.png`. Composer icon: `assets/logo-192.png`.
+- Logo: `plugin/assets/logo-512.png`. Composer icon: `plugin/assets/logo-192.png`.
 - MCP server: `https://mcp.cademy.io/mcp`, OAuth, Client ID Metadata Document preferred (the server also advertises PKCE S256 and the `none` client auth method).
 
 ## Example prompts (for both portals and the demo)

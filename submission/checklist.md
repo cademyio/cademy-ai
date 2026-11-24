@@ -8,7 +8,7 @@ In order. Tick each line as it is done; anything marked **Adrian** needs an acco
 - [ ] CAD-7078 (Connected AI Apps in Settings) is in Production, so the README and demo match the app.
 - [ ] No email to Anthropic in advance. Paste the note under "Note for Anthropic reviewers" below into the connector form's notes box if it has one, or send it only if a reviewer asks.
 - [ ] **Adrian:** reviewer login `external-tester@cademy.io` added as a System Admin on the `zoomtester` account (the one already used for the Zoom app review), plan set to Pro for the review, sample data in place (upcoming dates, bookings with one unpaid, certificates, feedback). Put the password only in the portal forms, never in this repo.
-- [ ] Docs page live on cademy.io; if its URL is not `https://cademy.io/features/mcp`, update `plugin.json` (`homepage`, `documentationUrl`), `README.md` and `listing.md`, and bump the version.
+- [ ] Links still work: homepage `https://cademy.io/features/mcp` and the help centre set-up guide in `documentationUrl`. If either moves, update `plugin.json`, `README.md` and `listing.md`.
 - [ ] Privacy policy at https://cademy.io/privacy covers AI app access and the data returned to AI apps.
 - [ ] Run the eight prompts in `test-cases.md` on `zoomtester` through Claude with the plugin installed, and check each answer matches.
 - [ ] `node scripts/validate.mjs` and `node scripts/check-listing.mjs` pass; CI is green on `main`.

@@ -45,7 +45,8 @@ Productivity, Education, Business operations (pick the closest names the portal 
 
 ### Links
 
-- Documentation: https://cademy.io/features/mcp (swap for the new AI apps page once it is live)
+- Documentation: https://help.cademy.io/en/articles/18547504-set-up-cademy-mcp-in-chatgpt-claude-codex-and-other-ai-apps
+- Homepage: https://cademy.io/features/mcp
 - Privacy policy: https://cademy.io/privacy
 - Support: https://help.cademy.io
 - Icon: `plugin/assets/logo-512.png`

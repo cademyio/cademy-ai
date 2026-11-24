@@ -26,8 +26,8 @@ In order. Tick each line as it is done; anything marked **Adrian** needs an acco
 ## Claude directory (claude.ai/directory/manage, Team Owner or Directory permission)
 
 - [ ] **Adrian:** connect GitHub with push access to `cademyio/cademy-ai`.
-- [ ] Submit new → **MCP connector**: URL `https://mcp.cademy.io/mcp`, name, one-liner, description and categories from `listing.md`, docs, privacy and support links, icon `assets/logo-512.png`, the seven compliance acknowledgements.
-- [ ] Submit new → **Plugin bundle**: repo `cademyio/cademy-ai`, path `/`, branch `main`. Fix anything the validator flags, then Listing details (read from `plugin.json` and the README), Data handling, the four compliance acknowledgements, submit.
+- [ ] Submit new → **MCP connector**: URL `https://mcp.cademy.io/mcp`, name, one-liner, description and categories from `listing.md`, docs, privacy and support links, icon `plugin/assets/logo-512.png`, the seven compliance acknowledgements.
+- [ ] Submit new → **Plugin bundle**: repo `cademyio/cademy-ai`, folder `plugin`, branch `main` (open "Plugin in a subfolder or on another branch?"). Fix anything the validator flags, then Listing details (read from `plugin.json` and the README), Data handling, the four compliance acknowledgements, submit.
 - [ ] Pair the plugin with the connector once both are approved.
 - [ ] If a reviewer asks for test access by email, reply with `reviewer-notes.md` and the login.
 - [ ] On go-live: set the Claude listing URL in AdminUI config (CAD-7089) and comment on CAD-7088.

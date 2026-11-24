@@ -10,7 +10,7 @@ Paste into OpenAI's secure "Review details" form. For Claude, send only when a r
   - Password: `<reviewer password>`
 - **Role:** System Admin, so every tool is available.
 - **No card payments:** the account has no live payment processor connected. Card checkout and approving orders that charge a card will refuse with a clear message. Invoices, pay links and recorded payments work without moving real money.
-- **Emails:** the sample contacts are test addresses. Please don't email addresses outside the account.
+- **Emails:** sending email is switched off on this account, so nothing is delivered even when a tool reports an email as sent. The sample contacts are test addresses.
 
 ## How it behaves
 

@@ -7,11 +7,11 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 node scripts/validate.mjs
 
-version=$(node -p "require('./.claude-plugin/plugin.json').version")
-output="dist/cademy-openai-${version}.zip"
+version=$(node -p "require('./plugin/.claude-plugin/plugin.json').version")
+output="$PWD/dist/cademy-openai-${version}.zip"
 mkdir -p dist
 rm -f "$output"
 
-zip -rq -X "$output" .claude-plugin skills assets README.md LICENSE -x '*.DS_Store'
+(cd plugin && zip -rq -X "$output" .claude-plugin skills assets README.md LICENSE -x '*.DS_Store')
 echo "Built $output"
 unzip -l "$output"

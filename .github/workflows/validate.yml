@@ -14,4 +14,4 @@ jobs:
                   node-version: 22
             - run: node scripts/validate.mjs
             - run: node scripts/check-listing.mjs
-            - run: bash scripts/package-openai.sh
+            - run: node scripts/build-openai.mjs

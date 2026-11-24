@@ -6,13 +6,17 @@ In order. Tick each line as it is done; anything marked **Adrian** needs an acco
 
 - [ ] CAD-7087 (server, firewall, challenge route) is in Production and the WAF stack is deployed.
 - [ ] CAD-7078 (Connected AI Apps in Settings) is in Production, so the README and demo match the app.
-- [ ] Anthropic replied to the money-tools pre-check email (policy on card capture through `approve_order`).
-- [ ] **Adrian:** reviewer account "Cademy Demo Academy" signed up on Production, plan set, exempt from two-factor, seeded with `mcp:seedWorkflowAccount` (dry run, then live) and signs in without codes. Fill in the placeholders in `reviewer-notes.md` in the portal forms only, never in this repo.
+- [ ] No email to Anthropic in advance. Paste the note under "Note for Anthropic reviewers" below into the connector form's notes box if it has one, or send it only if a reviewer asks.
+- [ ] **Adrian:** reviewer login `external-tester@cademy.io` added as a System Admin on the `zoomtester` account (the one already used for the Zoom app review), plan set to Pro for the review, sample data in place (upcoming dates, bookings with one unpaid, certificates, feedback). Put the password only in the portal forms, never in this repo.
 - [ ] Docs page live on cademy.io; if its URL is not `https://cademy.io/features/mcp`, update `plugin.json` (`homepage`, `documentationUrl`), `README.md` and `listing.md`, and bump the version.
 - [ ] Privacy policy at https://cademy.io/privacy covers AI app access and the data returned to AI apps.
-- [ ] Full workflow harness passes on the Production reviewer account, with and without `--plugin=<path to this repo>`, negatives included.
+- [ ] Run the eight prompts in `test-cases.md` on `zoomtester` through Claude with the plugin installed, and check each answer matches.
 - [ ] `node scripts/validate.mjs` and `node scripts/check-listing.mjs` pass; CI is green on `main`.
 - [ ] Repo `cademyio/cademy-ai` is public with this content on `main`, tagged `v<version>`.
+
+## Note for Anthropic reviewers
+
+> Cademy is used by training providers to take course bookings. Some tools touch money: recording a payment the provider received, refunding, creating a pay link for an invoice, and approving a booking request that charges the card the learner already gave at checkout. None of them can send money out of the provider's account or take a new card. Every one needs a confirmed preview first: the assistant shows the exact amount and customer and waits for the person to say yes, and only the roles allowed to do it in Cademy can. Each change is on the account's Activity Log.
 
 ## Official MCP Registry
 
